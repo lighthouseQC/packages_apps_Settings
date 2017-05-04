@@ -67,7 +67,16 @@ android_library {
         "btadva_settings_java_defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java", 
+           "Supplies/src/**/*.java",
+        ],
+
+    aaptflags: ["--extra-packages com.lighthouse.settings"],
+
+    resource_dirs: [
+        "res",
+        "Supplies/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -107,6 +116,9 @@ android_library {
         "telephony-ext",
         "extphonelib",
     ],
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {
