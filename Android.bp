@@ -121,6 +121,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
         "kotlin-stdlib",
+        "faceunlock_framework",
     ],
 
     libs: [
