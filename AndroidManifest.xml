@@ -4532,6 +4532,19 @@
             </intent-filter>
         </activity>
 
+        <!-- Supplies -->
+        <activity android:name=".Settings$SuppliesActivity"
+            android:label="@string/lighthouse_supplies_dash_title"
+            android:icon="@drawable/ic_settings_supplies"
+            android:exported="true"
+            android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.lighthouse.supplies.Supplies" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

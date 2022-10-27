@@ -107,6 +107,14 @@
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="com.lighthouse.supplies.Supplies"
+        android:icon="@drawable/ic_settings_supplies"
+        android:key="top_level_lighthouse_supplies"
+        android:order="-65"
+        android:title="@string/lighthouse_supplies_dash_title"
+        android:summary="@string/lighthouse_supplies_summary"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         android:icon="@drawable/ic_settings_accessibility"
         android:key="top_level_accessibility"
