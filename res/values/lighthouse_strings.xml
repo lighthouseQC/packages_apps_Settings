@@ -15,6 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Supplies -->
+    <string name="lighthouse_supplies_dash_title">Supplies</string>
+    <string name="lighthouse_supplies_summary">Minimal, but not bare</string>
  
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
