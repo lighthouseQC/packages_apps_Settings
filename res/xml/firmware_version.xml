@@ -53,6 +53,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
 
+    <!-- Device Model-->
+    <Preference
+        android:key="lighthouse_device_model"
+        android:title="@string/lighthouse_device_model"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.LighthouseModelPreferenceController"/>
+
     <!-- Baseband -->
     <Preference
         android:key="base_band"
