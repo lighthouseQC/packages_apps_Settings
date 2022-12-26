@@ -153,7 +153,8 @@
         <Preference
             android:key="screensaver"
             android:title="@string/screensaver_settings_title"
-            android:fragment="com.android.settings.dream.DreamSettings"/>
+            android:fragment="com.android.settings.dream.DreamSettings"
+            settings:keywords="@string/keywords_screensaver"/>
 
         <SwitchPreference
             android:key="camera_gesture"
@@ -164,18 +165,13 @@
             android:key="lift_to_wake"
             android:title="@string/lift_to_wake_title"/>
 
-        <SwitchPreference
-            android:key="tap_to_wake"
-            android:title="@string/tap_to_wake"
-            android:summary="@string/tap_to_wake_summary"/>
-
         <Preference
             android:key="display_cutout_force_fullscreen_settings"
             android:title="@string/display_cutout_force_fullscreen_title"
             android:summary="@string/display_cutout_force_fullscreen_summary"
             android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
             settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
-            
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
