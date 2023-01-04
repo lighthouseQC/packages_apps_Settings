@@ -3563,6 +3563,8 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="lighthouse_version">Torpedo</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="lighthouse_clo_revision">CLO Revision</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="lighthouse_device_model">Device Model</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="lighthouse_build_status">Lighthouse Service Status</string>

@@ -51,6 +51,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
+    <!-- CLO Revision -->
+    <Preference
+        android:key="lighthouse_clo_revision"
+        android:title="@string/lighthouse_clo_revision"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.LighthouseCLORevisionPreferenceController"/>
+
     <!-- Mainline module version -->
     <Preference
         android:key="module_version"
